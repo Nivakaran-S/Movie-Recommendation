@@ -18,10 +18,15 @@ This project showcases skills in data preprocessing, natural language processing
 The dataset used in this project is sourced from the TMDB dataset on Kaggle. The raw data was cleaned and processed to extract relevant columns, including:
 
 Title: Movie title.
+
 Keywords: Movie related keywords
+
 Overview: A brief description of the movie.
+
 Cast: Key actors in the movie.
+
 Crew: Key crew members (e.g., director).
+
 Genres: Movie genres.
 
 ## Data Preprocessing
