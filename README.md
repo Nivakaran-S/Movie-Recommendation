@@ -34,6 +34,7 @@ Applied Snowball Stemming (using the NLTK library) to reduce words to their root
 - Data Export: Saved the processed movie data and cosine similarity matrix as pickle files (movies.pkl and similarity.pkl) for efficient loading in the Streamlit app.
 
 Note: Due to the large size of the pickle files, they are not included in the GitHub repository. Users must download them from the provided Google Drive link and place them in the artifacts folder.
+
 Download link: [https://drive.google.com/drive/folders/1K1wi9_TR76hc5NK6wSo8uVYJeVNCCeLN?usp=sharing]
 
 ## Recommendation Logic
