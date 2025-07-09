@@ -17,17 +17,12 @@ This project showcases skills in data preprocessing, natural language processing
 ## Dataset
 The dataset used in this project is sourced from the TMDB dataset on Kaggle. The raw data was cleaned and processed to extract relevant columns, including:
 
-Title: Movie title.
-
-Keywords: Movie related keywords
-
-Overview: A brief description of the movie.
-
-Cast: Key actors in the movie.
-
-Crew: Key crew members (e.g., director).
-
-Genres: Movie genres.
+- Title: Movie title.
+- Keywords: Movie related keywords
+- Overview: A brief description of the movie.
+- Cast: Key actors in the movie.
+- Crew: Key crew members (e.g., director).
+- Genres: Movie genres.
 
 ## Data Preprocessing
 
@@ -39,6 +34,7 @@ Applied Snowball Stemming (using the NLTK library) to reduce words to their root
 - Data Export: Saved the processed movie data and cosine similarity matrix as pickle files (movies.pkl and similarity.pkl) for efficient loading in the Streamlit app.
 
 Note: Due to the large size of the pickle files, they are not included in the GitHub repository. Users must download them from the provided Google Drive link and place them in the artifacts folder.
+Download link: [https://drive.google.com/drive/folders/1K1wi9_TR76hc5NK6wSo8uVYJeVNCCeLN?usp=sharing]
 
 ## Recommendation Logic
 The recommendation system operates as follows:
@@ -74,7 +70,6 @@ To obtain a TMDB API key, visit https://www.themoviedb.org/ and follow the instr
 - A TMDB API key (see above for instructions).
 - The movies.pkl and similarity.pkl files downloaded from the Google Drive link.
 
-### Steps
 ```bash
 Clone the Repository:git clone https://github.com/Nivakaran-S/Movie-Recommendation.git
 cd movie-recommendation-system
