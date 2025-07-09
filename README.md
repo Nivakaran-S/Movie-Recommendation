@@ -67,25 +67,25 @@ The app uses the python-dotenv library to load the API key securely and make aut
 
 To obtain a TMDB API key, visit https://www.themoviedb.org/ and follow the instructions to create an account and generate an API key.
 
-##Installation and Setup
+## Installation and Setup
 
-###Prerequisites
+### Prerequisites
 - Python 3.8+
 - A TMDB API key (see above for instructions).
 - The movies.pkl and similarity.pkl files downloaded from the Google Drive link.
 
-###Steps
+### Steps
 ```bash
 Clone the Repository:git clone https://github.com/Nivakaran-S/Movie-Recommendation.git
 cd movie-recommendation-system
 ```
 
-##Download Pickle Files:
+## Download Pickle Files:
 Download movies.pkl and similarity.pkl from the provided GoogleDrive link.
 Place both files in the artifacts folder within the project directory.
 
 
-###Install Dependencies:
+### Install Dependencies:
 ```bash
 pip install -r requirements.txt
 ```
